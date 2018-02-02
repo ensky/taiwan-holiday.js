@@ -1,5 +1,5 @@
 {
-  "name": "taiwan-holiday.js",
+  "name": "taiwan-holiday",
   "version": "1.0.0",
   "description": "let me help you find out it's taiwan holiday or not.",
   "main": "index.js",
