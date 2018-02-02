@@ -1,6 +1,6 @@
 {
   "name": "taiwan-holiday",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "let me help you find out it's taiwan holiday or not.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "nyc": "^11.4.1"
   },
   "config": {
-    "temp_dir": "/tmp"
+    "temp_dir": ""
   },
   "dependencies": {
     "request": "^2.83.0",
