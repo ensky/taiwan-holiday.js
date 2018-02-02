@@ -5,22 +5,23 @@
 let me help you find out it's taiwan holiday or not.
 
 # Use
-```
+```javascript
+// use project static data
 const holiday = require('taiwan-holiday');
 
 holiday.init()
 	.then(() => {
-		holiday.isHoliday(new Date('2018/1/1'));
+		holiday.isHoliday('2018/1/1');
 	});
 ```
 
 
-Custom temp dir
-```
+```javascript
+// useCustom temp dir
 const holiday = require('taiwan-holiday');
 
 holiday.init({temp_dir: './my-tmp'})
 	.then(() => {
-		holiday.isHoliday(new Date('2018/1/1'));
+		holiday.isHoliday('2018/1/1');
 	});
 ```
