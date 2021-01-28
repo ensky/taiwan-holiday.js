@@ -4,8 +4,8 @@
   "description": "let me help you find out it's taiwan holiday or not.",
   "main": "index.js",
   "scripts": {
-	"test": "nyc mocha",
-	"coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "nyc mocha",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "nyc": "^11.4.1"
   },
   "config": {
-    "temp_dir": ""
+    "temp_dir": "/tmp"
   },
   "dependencies": {
     "request": "^2.83.0",
