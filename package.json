@@ -1,6 +1,6 @@
 {
   "name": "taiwan-holiday",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "let me help you find out it's taiwan holiday or not.",
   "main": "index.js",
   "scripts": {
